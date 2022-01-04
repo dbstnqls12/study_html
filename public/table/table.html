@@ -4,6 +4,18 @@
 <meta charset="uTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>윤수빈</title>
+
+<!-- css 내용 -->
+<style type="text/css">
+	table, th, td{
+		border: 1px solid black;
+		border-collapse: collapse; 
+	}
+	th, td{
+		padding: 15px;
+	}
+</style>
+
 </head>
 
 <body>
@@ -14,57 +26,67 @@
 <!-- 	 	<figcaption>
 	 		<p>테이블 설명하는 부분입니다.</p>
 	 	</figcaption> -->
-	 	<tr> <!-- 행 -->
-	 		<th width="80px" height="40">번호</th> <!-- 열(셀) -->
-	 		<th width="100px">이름</th> 
- 			<th width="100px">아이디</th> 
-	 		<th width="200px">이메일</th> 
-	 		<th width="150px">전화번호</th> 
-	 		<th width="150px">별명</th> 
-	 		<th width="150px">주소</th> 
-	 		<th width="80px">사진</th> 
-	 	</tr>
-	 	<tr> 
-	 		<td>1</td> 
-	 		<td>정은지</td> 
-	 		<td>asdasd</td> 
-	 		<td>asdasd@asd.com</td> 
-	 		<td>010-1231-1231</td> 
-	 		<td>정은지팡이</td> 
-	 		<td>서울특별시</td> 
-	 		<td><img src="../2.image/1.png" width="80px" height="50px"></td> 
-	 		
-	 	</tr>
-	 	<tr> 
-	 		<td>2</td>
-	 		<td>오하영</td> 
-	 		<td>sdfsdf</td> 
-	 		<td>sdfsdf@asd.com</td> 
-	 		<td>010-1212-1212</td> 
-	 		<td>오하영심이</td> 
-	 		<td>경기도</td> 
-	 		<td><img src="../images/2.jpg" width="80px" height="50px"></td> 
-	 	</tr>
-	 	<tr> 
-	 		<td>3</td>
-	 		<td>박하영</td> 
-	 		<td>vnbnf</td> 
-	 		<td>vnbnf@nvbn.com</td> 
-	 		<td>010-1232-1123</td> 
-	 		<td>박하사탕</td> 
-	 		<td>인천</td> 
-	 		<td><img src="../images/cat/3.jpg" width="80px" height="50px"></td> 
-	 	</tr>
-	 	<tr> 
-	 		<td>4</td>
-	 		<td>아하영</td> 
-	 		<td>fsdfdf</td> 
-	 		<td>fsdfdf@fdsf.com</td> 
-	 		<td>010-3212-1323</td> 
-	 		<td>아자하영</td> 
-	 		<td>제주도</td> 
-	 		<td><img src="../images/4.jpg" width="80px" height="50px"></td> 
-	 	</tr>
+	 	<thead>
+		 	<tr> <!-- 행 -->
+		 		<th>번호</th> <!-- 열(셀) -->
+		 		<th>이름</th> 
+	 			<th>아이디</th> 
+		 		<th>이메일</th> 
+		 		<th>전화번호</th> 
+		 		<th>별명</th> 
+		 		<th>주소</th> 
+		 		<th>사진</th> 
+		 	</tr>
+		 </thead>
+		 <tbody>
+		 	<tr> 
+		 		<td>1</td> 
+		 		<td>정은지</td> 
+		 		<td>asdasd</td> 
+		 		<td>asdasd@asd.com</td> 
+		 		<td>010-1231-1231</td> 
+		 		<td>정은지팡이</td> 
+		 		<td>서울특별시</td> 
+		 		<td><img src="../2.image/1.png"  width="80px" height="50px"></td> 
+		 		
+		 	</tr>
+	 	</tbody>
+	 	<tbody>
+		 	<tr> 
+		 		<td>2</td>
+		 		<td>오하영</td> 
+		 		<td>sdfsdf</td> 
+		 		<td>sdfsdf@asd.com</td> 
+		 		<td>010-1212-1212</td> 
+		 		<td>오하영심이</td> 
+		 		<td>경기도</td> 
+		 		<td><img src="../images/2.jpg" width="80px" height="50px"></td> 
+		 	</tr>
+	 	</tbody>	
+	 	<tbody>
+		 	<tr> 
+		 		<td>3</td>
+		 		<td>박하영</td> 
+		 		<td>vnbnf</td> 
+		 		<td>vnbnf@nvbn.com</td> 
+		 		<td>010-1232-1123</td> 
+		 		<td>박하사탕</td> 
+		 		<td>인천</td> 
+		 		<td><img src="../images/cat/3.jpg" width="80px" height="50px"></td> 
+		 	</tr>
+	 	</tbody>
+	 	<tfoot>
+		 	<tr> 
+		 		<td>4</td>
+		 		<td>아하영</td> 
+		 		<td>fsdfdf</td> 
+		 		<td>fsdfdf@fdsf.com</td> 
+		 		<td>010-3212-1323</td> 
+		 		<td>아자하영</td> 
+		 		<td>제주도</td> 
+		 		<td><img src="../images/4.jpg" width="80px" height="50px"></td> 
+		 	</tr>
+	 	</tfoot>
 	 </table>
 
 </body>
