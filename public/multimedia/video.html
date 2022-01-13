@@ -7,8 +7,20 @@
 </head>
 <body onload="init();">
 
-	<video src="./mango.mp4" controls="controls"></video>
+	<!-- <video src="./mango.mp4"></video> -->
+	<!-- <video src="./mango.mp4" width="600px;"></video> -->
+	<!-- <video src="./mango.mp4" controls width="400px;"></video> -->
+	<!-- <video src="./mango.mp4" controls width="400px;" loop></video> -->
+	<!-- <video src="./mango.mp4" controls width="400px;" autoplay></video> -->
+	<!-- <video src="./mango.mp4" controls width="400px;" autoplay muted></video> -->	
 	
+	<video controls width="400px;" autoplay>
+		<source src="./mango.mp4">
+		<source src="./mango.webm">
+		<source src="./mango.egg">
+	
+		본 영상은 크롬 또는 html5를 지원하는 브라우저에서만 재생이 가능합니다.
+	</video>
 	
 <script type="text/javascript">
 	function init() {
