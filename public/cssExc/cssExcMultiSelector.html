@@ -10,16 +10,21 @@
 	div ul li{
 		border: 1px solid black;
 	}
-	
+		
 	/* 자식 선택자 */
 	div > ul{
 		border: 1px solid red;
 	}
 	
-	/* 인접 형제 선택자 */
-	h3 + p{
-		color: red;
+	p+ul>li{
+		color: pink;
 	}
+	
+	/* 인접 형제 선택자 */
+ 	h3 + p{
+		color: blue;
+	} 
+
 	
 	/* 형제 선택자 */
 	h3 ~ p{
