@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="uTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<style type="text/css">
+
+	/* 하위 선택자 */
+	div ul li{
+		border: 1px solid black;
+	}
+	
+	/* 자식 선택자 */
+	div > ul{
+		border: 1px solid red;
+	}
+	
+	/* 인접 형제 선택자 */
+	h3 + p{
+		color: red;
+	}
+	
+	/* 형제 선택자 */
+	h3 ~ p{
+		color: red;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<h3>취미</h3>
+		<p>취미가 다양하다</p>
+		<p>다양다양 진짜 다양다양</p>	
+		<ul>
+			<li>원영</li>
+				<ul>
+					<li>코딩</li>
+					<li>자전거</li>
+				</ul>
+			<li>지현</li>
+				<ul>
+					<li>디자인</li>
+					<li>쇼핑</li>
+					<li>테니스</li>
+					<li>전시회</li>
+				</ul>
+		</ul>
+	</div>
+</body>
+</html>
